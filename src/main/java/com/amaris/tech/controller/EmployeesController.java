@@ -61,7 +61,7 @@ public class EmployeesController {
 
 	@ExceptionHandler(Exception.class)
 	public String handleErrors(Model model) {
-		model.addAttribute("messageError", "Ha sucedio un error. Intente mas tarde");
+		model.addAttribute("messageError", "Ha sucedido un error. Intente mas tarde");
 		return HTML_FILE;
 	}
 
